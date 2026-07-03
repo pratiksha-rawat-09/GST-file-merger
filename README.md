@@ -1,3 +1,4 @@
+```python 
 # GST-file-merger
 import os
 import re
@@ -96,6 +97,7 @@ def merge_gstr2a_files():
     output_path = os.path.join(folder_path, 'GSTR2A_Consolidated.xlsx')
     wb.save(output_path)
     messagebox.showinfo("Success", f"Merged file saved at:\n{output_path}")
+```
 
 # GUI setup
 root = Tk()
